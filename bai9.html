@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập số nguyên dương x bất kỳ.
+        Viết chương trình tính giai thừa của x.</title>
+</head>
+<body>
+<script>
+    let x = prompt("nhập số nguyên dương bất kỳ:")
+    let giaithua = 1;
+    function tinh(x){
+        for (let i = 1; i <= x;i++){
+            giaithua = giaithua*i;
+        }
+        document.write(giaithua)
+    }
+    tinh(x)
+</script>
+</body>
+</html>

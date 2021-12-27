@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết chương trình nhập một số nguyên và
+        in kết quả ra màn hình dưới dạng số đảo ngược (về thứ tự) của số nguyên vừa nhập đó.</title>
+</head>
+<body>
+<script>
+    // let n = prompt("nhập một dãy số nguyên:")
+    // let arr = []
+    // for (let i = 0; i < n.length; i++) {
+    //     arr.push(n[i]);
+    // }
+    // arr.reverse();
+    // document.write(arr.join())
+    let number = "123";
+    let numberdaonguoc = "";
+    for (let i = number.length-1; i >= 0; i --){
+        numberdaonguoc += number[i]
+    }
+    document.write(numberdaonguoc)
+</script>
+</body>
+</html>
